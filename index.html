@@ -3,10 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Aeronaut Studios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;1,300&family=Lato:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "Lato", sans-serif;
+      }
+      .fraunces {
+        font-family: "Fraunces", serif;
+      }
+
+      .playfair {
+        font-family: "Playfair Display", serif;
+      }
+
+      .txt-drk-olive {
+        color: hsla(60, 14%, 28%, 1) 10%;
+      }
+
+      .txt-right {
+        text-align: right;
+      }
+
+      .right-margin {
+        margin-right: 10px;
+      }
+
+      .nav-link {
+        flex-basis: calc(25% - 4px);
+      }
+
+      .bckgrd {
+        background: hsla(60, 14%, 28%, 1);
+
+        background: linear-gradient(
+          90deg,
+          hsla(60, 14%, 28%, 1) 5%,
+          hsla(62, 27%, 53%, 1) 38%,
+          hsla(55, 88%, 84%, 1) 84%
+        );
+
+        background: -moz-linear-gradient(
+          90deg,
+          hsla(60, 14%, 28%, 1) 5%,
+          hsla(62, 27%, 53%, 1) 38%,
+          hsla(55, 88%, 84%, 1) 84%
+        );
+
+        background: -webkit-linear-gradient(
+          90deg,
+          hsla(60, 14%, 28%, 1) 5%,
+          hsla(62, 27%, 53%, 1) 38%,
+          hsla(55, 88%, 84%, 1) 84%
+        );
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#51513d", endColorstr="#a6a867", GradientType=1 );
+      }
+    </style>
   </head>
-  <body>
-    <h1>HOME</h1>
-    <a href="index.html">Home</a>
+  <body class="bckgrd">
+    <header>
+      <h1 class="fraunces txt-right right-margin txt-drk-olive">
+        Aeronaut Recording Studios
+      </h1>
+      <nav class="container-fluid">
+        <div class="nav-link">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-link">
+          <a href="about.html">About</a>
+        </div>
+        <div class="nav-link">
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus
+      mollitia sed corrupti accusantium deleniti impedit, voluptatum minima
+      expedita odio ipsa architecto amet labore sit veritatis autem facere illo
+      quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+      nobis dolorem? Porro dolor dicta provident, ad quas ipsam doloribus autem
+      nam et assumenda incidunt quisquam fugit exercitationem. Tempore, quia
+      deserunt!
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
