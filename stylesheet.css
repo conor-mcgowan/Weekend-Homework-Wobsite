@@ -1,0 +1,77 @@
+* {
+    font-family: "Lato", sans-serif;
+  }
+  .fraunces {
+    font-family: "Fraunces", serif;
+  }
+
+  .playfair {
+    font-family: "Playfair Display", serif;
+  }
+
+  .txt-drk-olive {
+    color: hsla(60, 14%, 28%, 1) 10%;
+  }
+
+  .txt-right {
+    text-align: right;
+  }
+
+  .right-margin {
+    margin-right: 10px;
+  }
+  .active {
+    color:black;
+  }
+  
+  .active:hover {
+    color: black;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .img {
+    margin: 10px 10px;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-family: "Playfair Display";
+  }
+
+  .aside {
+    flex-basis: calc(100% / 3)
+  }
+
+  .main {
+    flex-basis: calc(200% / 3)
+  }
+
+  .bckgrd {
+    background: hsla(60, 14%, 28%, 1);
+
+    background: linear-gradient(
+      90deg,
+      hsla(60, 14%, 28%, 1) 5%,
+      hsla(62, 27%, 53%, 1) 38%,
+      hsla(55, 88%, 84%, 1) 84%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(60, 14%, 28%, 1) 5%,
+      hsla(62, 27%, 53%, 1) 38%,
+      hsla(55, 88%, 84%, 1) 84%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(60, 14%, 28%, 1) 5%,
+      hsla(62, 27%, 53%, 1) 38%,
+      hsla(55, 88%, 84%, 1) 84%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#51513d", endColorstr="#a6a867", GradientType=1 );
+  }
